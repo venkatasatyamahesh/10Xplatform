@@ -1,7 +1,86 @@
 /* Our CSS file. */
+body{
+    display: block;
+    border: 1px solid;
+}
 
-
-.container, .content {
+.container{
 width: 100%;
 height: 100%;
+}
+.app-logo-container {
+background-image: url("https://www.bing.com/th?id=OIP.5m3r81-RuQ3G2uElwpMs9wHaH_&w=104&h=110&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2");
+height: 92px;
+background-repeat: no-repeat;
+width: 100px;
+
+
+}
+.app-header {
+height:auto;
+padding: 50px;
+border: 2px solid;
+background-color: aliceblue;
+width:auto;
+}
+.app-search-form{
+float: right;
+margin-top: -52px;
+}
+.app-search-input{
+height: 18px;
+padding: 5px;
+border: 1px solid darkblue;
+border-radius:5px ;
+width: 200px;
+}
+.app-nav-bar{
+    height: auto;
+    width: auto;
+    padding-right: 72px;
+    margin-bottom: auto;
+    padding: 10px 0px;
+    border: solid;
+    text-align: center;
+    justify-content: center;
+}
+
+.app-nav-link{
+width: 24.5%;
+display:30px;
+text-align: center;
+justify-content: center;
+text-decoration: none;
+line-height: 20px;
+margin-left: 30px;
+}
+.app-content{
+width: 20%;
+display: inline-block;
+
+}
+section{
+width:59.3% ;
+display: inline-block;
+margin: auto;
+padding-left: 6px;
+}
+.app-content ul{
+list-style: none;
+}
+.laside{
+    text-align: center;
+    float: left;
+}
+.raside{
+    float: right;
+    text-align: center;
+
+}
+img{
+    width: 30%;
+
+}
+footer{
+    border: 1px solid;
 }
